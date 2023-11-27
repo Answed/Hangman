@@ -5,6 +5,14 @@
 int main() {
     DisplayHangmann pDisplayHangmann = *new DisplayHangmann();
 
-    pDisplayHangmann.DrawHangmann();
+    for (int i = 0; i <= 7; ++i) {
+        pDisplayHangmann.UpdateHangmann(i);
+        if(i > 0){
+            pDisplayHangmann.DrawHangmann();
+        }
+
+    }
+
+
     return 0;
 }
