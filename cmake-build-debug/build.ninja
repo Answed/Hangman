@@ -61,6 +61,12 @@ build CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj: CXX_COMPILER__Hangmann_un
   OBJECT_DIR = CMakeFiles\Hangmann.dir
   OBJECT_FILE_DIR = CMakeFiles\Hangmann.dir
 
+build CMakeFiles/Hangmann.dir/GameLogic.cpp.obj: CXX_COMPILER__Hangmann_unscanned_Debug C$:/Projects/Hangmann/GameLogic.cpp || cmake_object_order_depends_target_Hangmann
+  DEP_FILE = CMakeFiles\Hangmann.dir\GameLogic.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Hangmann.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hangmann.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Hangmann
@@ -69,7 +75,7 @@ build CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj: CXX_COMPILER__Hangmann_un
 #############################################
 # Link the executable Hangmann.exe
 
-build Hangmann.exe: CXX_EXECUTABLE_LINKER__Hangmann_Debug CMakeFiles/Hangmann.dir/main.cpp.obj CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj
+build Hangmann.exe: CXX_EXECUTABLE_LINKER__Hangmann_Debug CMakeFiles/Hangmann.dir/main.cpp.obj CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj CMakeFiles/Hangmann.dir/GameLogic.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Hangmann.dir

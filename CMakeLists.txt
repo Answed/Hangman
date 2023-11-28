@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(Hangmann main.cpp
         DisplayHangmann.cpp
-        DisplayHangmann.h)
+        DisplayHangmann.h
+        GameLogic.cpp
+        GameLogic.h)

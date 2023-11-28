@@ -1,12 +1,4 @@
 # ninja log v5
-3	264	7226959684543896	CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj	e3c859b83eac5709
-5	255	7226960456732456	CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj	e3c859b83eac5709
-5	266	7226961026110197	CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj	e3c859b83eac5709
-2	269	7226961026140213	CMakeFiles/Hangmann.dir/main.cpp.obj	ce916a054375cfa0
-269	392	7226961027343469	Hangmann.exe	32c2b3cfd589dde8
-6	490	7227747561596610	CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj	e3c859b83eac5709
-2	525	7227747561952136	CMakeFiles/Hangmann.dir/main.cpp.obj	ce916a054375cfa0
-525	703	7227747563698633	Hangmann.exe	32c2b3cfd589dde8
 5	271	7227747651357875	CMakeFiles/Hangmann.dir/DisplayHangmann.cpp.obj	e3c859b83eac5709
 2	276	7227747651413009	CMakeFiles/Hangmann.dir/main.cpp.obj	ce916a054375cfa0
 276	328	7227747651909664	Hangmann.exe	32c2b3cfd589dde8
