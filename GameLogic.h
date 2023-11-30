@@ -3,6 +3,8 @@
 //
 #include<iostream>
 #include<fstream>
+#include <vector>
+
 
 
 #ifndef HANGMANN_GAMELOGIC_H
@@ -12,14 +14,12 @@ using namespace std;
 
 class GameLogic {
 
-string RandomWord(){
-
-}
-
-void ReadFile(){
-
-}
-
+    vector<string> words = CreateWordsVector();
+private:
+    static string ReadFile();
+    static vector<string> CreateWordsVector();
+public:
+    string RandomWord();
 };
 
 
