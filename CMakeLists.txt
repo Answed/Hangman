@@ -7,4 +7,7 @@ add_executable(Hangmann main.cpp
         DisplayHangmann.cpp
         DisplayHangmann.h
         GameLogic.cpp
-        GameLogic.h)
+        GameLogic.h
+        main.cpp
+        GameLogic.cpp
+)

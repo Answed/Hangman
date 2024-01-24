@@ -14,12 +14,17 @@ using namespace std;
 
 class GameLogic {
 
-    vector<string> words = CreateWordsVector();
 private:
+    static bool ContainsCharacter(char *wordarray, char letter, int wordLength);
+    static void PrintWordArray(char *wordArray, int wordLength);
     static string ReadFile();
-    static vector<string> CreateWordsVector();
+    static vector<string> CreateWordsVector(const string& words);
+    static void UpdateArray(char *wordArray, int postion, char letter);
 public:
-    string RandomWord();
+    static string RandomWord();
+    static char *CreateWordArray(int wordLength);
+    static int CheckUserInput(const string& randomWord, char *wordArray, int mistakes);
+    static bool GameOver(char *wordArray, string randomWord, int mistakes);
 };
 
 

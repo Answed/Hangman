@@ -19,27 +19,28 @@ void DisplayHangmann::drawHangmann() {
         }
         cout << endl;
     }
-
-}
+};
 
 void DisplayHangmann::UpdateHangmann(int mistakes) {
     switch (mistakes) {
-        case 2:
+        case 0:
             hangmann[2][6] = 'O';
             break;
-        case 3:
+        case 1:
             hangmann[3][6] = '|';
-        case 4:
+            break;
+        case 2:
             hangmann[3][5] = '/';
             break;
-        case 5:
+        case 3:
             hangmann[3][7] = '\\';
             break;
-        case 6:
+        case 4:
             hangmann[4][5] = '/';
             break;
-        case 7:
+        case 5:
             hangmann[4][7] = '\\';
             break;
     }
+    DisplayHangmann::drawHangmann();
 }

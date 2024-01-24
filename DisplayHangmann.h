@@ -14,7 +14,7 @@ public:
     static void drawHangmann();
 
     static void UpdateHangmann(int mistakes);
-}
+};
 
 
 #endif //HANGMANN_DISPLAYHANGMANN_H

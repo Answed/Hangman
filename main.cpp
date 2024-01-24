@@ -1,18 +1,18 @@
 #include <iostream>
 #include "DisplayHangmann.h"
-
+#include "GameLogic.h"
+#include <string>
 
 int main() {
-    DisplayHangmann pDisplayHangmann = *new DisplayHangmann();
+    int mistakes = 0;
+    string word = GameLogic::RandomWord();
+    char *wordArray = GameLogic::CreateWordArray(word.length());
 
-    for (int i = 0; i <= 7; ++i) {
-        pDisplayHangmann.UpdateHangmann(i);
-        if(i > 0){
-            pDisplayHangmann.drawHangmann();
+    while(mistakes < 6) {
+        mistakes += GameLogic::CheckUserInput(word, wordArray, mistakes);
+        if(GameLogic::GameOver(wordArray, word, mistakes)) {
+            break;
         }
-
     }
-
-
     return 0;
-}
+};
